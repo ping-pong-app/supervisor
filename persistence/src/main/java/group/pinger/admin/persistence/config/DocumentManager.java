@@ -30,7 +30,7 @@ public class DocumentManager {
     
     public void openConnection() {
         LOG.info("Connecting to document database on address {}...", String.format("%s:%d", config.getHost(), config.getPort()));
-        MongoCredential credential = MongoCredential.createCredential(config.getUsername(), "admin", config.getPassword().toCharArray());
+        MongoCredential credential = MongoCredential.createCredential(config.getUsername(), config.getDatabase(), config.getPassword().toCharArray());
         client.set(MongoClients.create(
             MongoClientSettings.builder()
                 .applyToClusterSettings(builder -> {
