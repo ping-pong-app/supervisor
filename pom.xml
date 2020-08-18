@@ -22,6 +22,7 @@
         <kumuluzee-rest-client.version>1.4.1.1</kumuluzee-rest-client.version>
         <kumuluzee-openapi.version>1.0.1</kumuluzee-openapi.version>
 
+        <firebase.version>6.16.0</firebase.version>
         <rest-utils.version>1.4.0</rest-utils.version>
         <jackson.version>2.9.10.4</jackson.version>
         <mongo.version>4.1.0</mongo.version>
@@ -103,6 +104,11 @@
                 <groupId>org.mongodb</groupId>
                 <artifactId>mongodb-driver-sync</artifactId>
                 <version>${mongo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.google.firebase</groupId>
+                <artifactId>firebase-admin</artifactId>
+                <version>${firebase.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
