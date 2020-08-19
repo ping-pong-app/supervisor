@@ -1,6 +1,5 @@
 package group.pinger.admin.api.listeners;
 
-import group.pinger.admin.firebase.FirebaseService;
 import group.pinger.admin.firebase.config.FirebaseConfig;
 import group.pinger.admin.persistence.config.DocumentManager;
 

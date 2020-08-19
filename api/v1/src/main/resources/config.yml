@@ -40,3 +40,5 @@ keycloak:
   client-id: supervisor-service
   auth:
     client-secret: not_set
+web:
+  client-id: supervisor-public
