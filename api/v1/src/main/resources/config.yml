@@ -11,7 +11,7 @@ kumuluzee:
     servlet:
       allow-origin: "*"
       supported-methods: "GET, POST, PUT, PATCH, DELETE, OPTIONS, HEAD"
-      exposed-headers: "X-Total-Count"
+      exposed-headers: "X-Total-Count,X-Limit,X-Offset,X-Page-Token"
   openapi:
     enabled: true
     ui:

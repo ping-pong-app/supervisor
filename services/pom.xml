@@ -21,6 +21,10 @@
             <groupId>group.pinger.admin</groupId>
             <artifactId>pinger-supervisor-lib-v1</artifactId>
         </dependency>
+        <dependency>
+            <groupId>group.pinger.admin</groupId>
+            <artifactId>firebase-integration</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>com.kumuluz.ee</groupId>
