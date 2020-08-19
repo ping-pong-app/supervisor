@@ -60,6 +60,10 @@
             <artifactId>kee-auth</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.keycloak</groupId>
+            <artifactId>keycloak-jetty94-adapter</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.mjamsek.rest</groupId>
             <artifactId>rest-utils</artifactId>
         </dependency>

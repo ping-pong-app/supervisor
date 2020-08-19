@@ -34,3 +34,9 @@ mongo:
   host: localhost
   port: 27017
   database: supervisor
+keycloak:
+  realm: ping-pong
+  auth-server-url: https://keycloak.mjamsek.com/auth
+  client-id: supervisor-service
+  auth:
+    client-secret: not_set

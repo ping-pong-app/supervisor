@@ -27,6 +27,7 @@
         <kee-auth.version>1.0.0</kee-auth.version>
         <jackson.version>2.9.10.4</jackson.version>
         <mongo.version>4.1.0</mongo.version>
+        <keycloak.version>7.0.1</keycloak.version>
     </properties>
 
     <dependencyManagement>
@@ -120,6 +121,11 @@
                 <groupId>com.google.firebase</groupId>
                 <artifactId>firebase-admin</artifactId>
                 <version>${firebase.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.keycloak</groupId>
+                <artifactId>keycloak-jetty94-adapter</artifactId>
+                <version>${keycloak.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
