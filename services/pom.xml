@@ -56,6 +56,10 @@
         </dependency>
 
         <dependency>
+            <groupId>com.mjamsek.auth</groupId>
+            <artifactId>kee-auth</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.mjamsek.rest</groupId>
             <artifactId>rest-utils</artifactId>
         </dependency>

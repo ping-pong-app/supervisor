@@ -24,6 +24,7 @@
 
         <firebase.version>6.16.0</firebase.version>
         <rest-utils.version>1.4.0</rest-utils.version>
+        <kee-auth.version>1.0.0</kee-auth.version>
         <jackson.version>2.9.10.4</jackson.version>
         <mongo.version>4.1.0</mongo.version>
     </properties>
@@ -99,6 +100,11 @@
                 <groupId>com.mjamsek.rest</groupId>
                 <artifactId>rest-utils</artifactId>
                 <version>${rest-utils.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mjamsek.auth</groupId>
+                <artifactId>kee-auth</artifactId>
+                <version>${kee-auth.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
